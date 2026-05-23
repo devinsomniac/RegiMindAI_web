@@ -5,6 +5,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-[#e6e4df] bg-[#faf9f6]/90 backdrop-blur-md">
       <div className="flex h-16 w-full items-center justify-between px-6 p-8">
         {/* LEFT: logo + name */}
+        <a href="/">
         <div className="flex items-center gap-3">
           <Image
             src="/regimind_logo.png"
@@ -23,6 +24,7 @@ const Header = () => {
             </span>
           </div>
         </div>
+        </a>
 
         {/* RIGHT: status pill */}
         <div className="flex items-center gap-2 rounded-full border border-[#e6e4df] bg-white px-3 py-1.5">
