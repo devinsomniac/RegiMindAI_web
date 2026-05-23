@@ -165,7 +165,7 @@ export default function ChatPage() {
                       {m.sources && m.sources.length > 0 && (
                         <div className="flex flex-col gap-2">
                           <p className="text-xs font-semibold uppercase tracking-wide text-[#3a3936]/60">
-                            Sources
+                            All the queries are answered from these sources
                           </p>
                           {m.sources.map((src, j) => (
                             <div

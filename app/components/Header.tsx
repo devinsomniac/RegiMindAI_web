@@ -19,7 +19,7 @@ const Header = () => {
               RegiMind <span className="text-[#d3374a]">AI</span>
             </span>
             <span className="mt-0.5 text-[10px] font-medium uppercase tracking-[0.12em] text-[#3a3936]/60">
-              Cardiff University policy assistant
+              V0.1 . Cardiff University policy assistant
             </span>
           </div>
         </div>
